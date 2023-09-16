@@ -1,11 +1,11 @@
-import { navLinks } from "@/lib/data";
+import { navLinks } from "@/lib/data/nav";
 import Link from "next/link";
 
 export const Header = () => {
   return (
     <header>
       <nav>
-        <ul className="mt-6 flex mx-auto bg-white justify-around gap-2 rounded-full h-12 items-center max-w-[40rem]">
+        <ul className="mx-auto mt-6 flex h-12 max-w-[40rem] items-center justify-around gap-2 rounded-full bg-white">
           {navLinks.map((link) => (
             <li>
               <Link href={link.href} className="p-3">
