@@ -1,8 +1,9 @@
-import { SectionHeader } from "../SectionHeader";
+import { Section } from "@/components/Section";
+import { SectionHeader } from "@/components/SectionHeader";
 
 export const About = () => {
   return (
-    <section>
+    <Section>
       <div className="mx-auto max-w-prose space-y-4 text-center leading-8">
         <SectionHeader>About Me</SectionHeader>
         <p>
@@ -22,6 +23,6 @@ export const About = () => {
           the guitar.
         </p>
       </div>
-    </section>
+    </Section>
   );
 };
