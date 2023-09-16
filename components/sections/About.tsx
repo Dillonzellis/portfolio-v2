@@ -1,8 +1,10 @@
+import { SectionHeader } from "../SectionHeader";
+
 export const About = () => {
   return (
     <section>
       <div className="mx-auto max-w-prose space-y-4 text-center leading-8">
-        <h2 className="text-2xl font-semibold">About Me</h2>
+        <SectionHeader>About Me</SectionHeader>
         <p>
           After graduating with a degree in Accounting, I decided to pursue my
           passion for programming. I enrolled in a coding bootcamp and learned
